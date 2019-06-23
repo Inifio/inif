@@ -1,6 +1,7 @@
 .Seperator {
-  background-color: #61dafb;
-  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .NavBar {
@@ -44,5 +45,47 @@
 
 h3 a {
   text-decoration: none;
-  color: #61dafb;
+  color: #FFB347;
+}
+
+.Red {
+  display: flex;
+  flex: 1;
+  background-color: #FF6961;
+  padding: 5px;
+}
+
+.Orange {
+  display: flex;
+  flex: 1;
+  background-color: #FFB347;
+  padding: 5px;
+}
+
+.Yellow {
+  display: flex;
+  flex: 1;
+  background-color: #FDFD96;
+  padding: 5px;
+}
+
+.Green {
+  display: flex;
+  flex: 1;
+  background-color: #77DD77;
+  padding: 5px;
+}
+
+.Blue {
+  display: flex;
+  flex: 1;
+  background-color: #779ecb;
+  padding: 5px;
+}
+
+.Purple {
+  display: flex;
+  flex: 1;
+  background-color: #B19cd9;
+  padding: 5px;
 }

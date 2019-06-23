@@ -4,7 +4,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="Seperator"/>
+      <div className="Seperator">
+        <div className="Red"/>
+        <div className="Orange"/>
+        <div className="Yellow"/>
+        <div className="Green"/>
+        <div className="Blue"/>
+        <div className="Purple"/>
+      </div>
       <div className="NavBar">
         <h1 className="PageTitle" >Inif</h1>
         <div className="NavBarLinks">
